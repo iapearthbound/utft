@@ -1,29 +1,40 @@
-# OUTDATED!
+[![GitHub version](https://img.shields.io/github/release/blynkkk/blynk-library.svg)](https://github.com/blynkkk/blynk-library/releases/latest)
+[![GitHub download](https://img.shields.io/github/downloads/blynkkk/blynk-library/total.svg)](https://github.com/blynkkk/blynk-library/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/blynkkk/blynk-library.svg)](https://github.com/blynkkk/blynk-library)
+[![GitHub issues](https://img.shields.io/github/issues/blynkkk/blynk-library.svg)](https://github.com/vshymanskyy/blynk-library-js/issues)
+[![Build Status](https://img.shields.io/travis/blynkkk/blynk-library.svg)](https://travis-ci.org/blynkkk/blynk-library)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/blynkkk/blynk-library)
 
-According by a mail from the original Author he has already applied my patch and asked me to delete my 
-repository. Cool!
+[Documentation](http://docs.blynk.cc/#blynk-firmware)
 
-Anyways head over to his page to see if it solves your Leonardo/UTFT needs. ( Also it would be cool if he would kindly start using github himself in order to avoid any future confusions ) 
+__________
 
+# What is Blynk?
+Blynk is a platform with iOS and Android apps to control Arduino, Raspberry Pi and the likes over the Internet.
+You can easily build graphic interfaces for all your projects by simply dragging and dropping widgets.
+If you need more information, please follow these links:
 
-## UTFT - Library
-This code is based on Henning Karlsen's work
-http://henningkarlsen.com/electronics/library.php?id=51
+* [Kickstarter campaign](https://www.kickstarter.com/projects/167134865/blynk-build-an-app-for-your-arduino-project-in-5-m/description)
+* [Blynk downloads, docs, tutorials](http://www.blynk.cc)
+* [Blynk community](http://community.blynk.cc)
+* [Facebook](http://www.fb.com/blynkapp)
+* [Twitter](http://twitter.com/blynk_app)
 
-    This library is the continuation of my ITDB02_Graph, ITDB02_Graph16
-    and RGB_GLCD libraries for Arduino and chipKit.
-    As the number of supported display modules and controllers started to
-    increase I felt it was time to make a single,
-    universal library as it will be much easier to maintain in the future.
+Please find examples on how to use different types of connections (transports) and how to do make something great with Blynk.
+You can easily apply any type of board/connection to all examples.
 
+![Dashboard settings](https://github.com/blynkkk/blynk-server/blob/master/docs/overview/dash_settings.png)
+![Widgets Box](https://github.com/blynkkk/blynk-server/blob/master/docs/overview/widgets_box.png)
+![Button edit](https://github.com/blynkkk/blynk-server/blob/master/docs/overview/button_edit.png)
+![Terminal edit](https://github.com/blynkkk/blynk-server/blob/master/docs/overview/terminal_edit.png)
+![Dashboard](https://github.com/blynkkk/blynk-server/blob/master/docs/overview/dash.png)
 
-I (Tony Ivanov) will be trying to adapt this library to work with Arudino Leonardo,
-unless someone beats me to it.
-Please refer to this post for more info: http://www.tonyivanov.se/posts/124
+__________
 
-# UPDATE
-I did it! Leonardo now supported!
-Use this line to initialize UTFT with leonardo control pins:
+### Implementations for other platforms
+* [Arduino](https://github.com/blynkkk/blynk-library)
+* [Node.js + Espruino](https://github.com/vshymanskyy/blynk-library-js)
+* [MicroPython WiPy](https://github.com/wipy/wipy/tree/master/lib/blynk)
 
-    UTFT myGLCD(ITDB28,A5,A4,A3,A2); // Arduino Leonardo
-
+### License
+This project is released under The MIT License (MIT)
