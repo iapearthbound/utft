@@ -170,13 +170,13 @@
 #define VGA_TRANSPARENT	0xFFFFFFFF
 
 #if defined(__AVR__)
-	#include "Arduino.h"
+	#include "Particle.h"
 	#include "hardware/avr/HW_AVR_defines.h"
 #elif defined(__PIC32MX__)
 	#include "WProgram.h"
 	#include "hardware/pic32/HW_PIC32_defines.h"
 #elif defined(__arm__)
-	#include "Arduino.h" // This will include energia.h where appropriate
+	#include "Particle.h" // This will include energia.h where appropriate
 	#include "hardware/arm/HW_ARM_defines.h"
 #endif
 
