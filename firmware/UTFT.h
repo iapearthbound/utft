@@ -177,7 +177,7 @@
 	#include "hardware/pic32/HW_PIC32_defines.h"
 #elif defined(__arm__)
 	#include "Particle.h" // This will include energia.h where appropriate
-	#include "hardware/arm/HW_ARM_defines.h"
+	#include "HW_ARM_defines.h"
 #endif
 
 struct _current_font
